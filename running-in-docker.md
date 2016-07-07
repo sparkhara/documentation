@@ -63,10 +63,10 @@ to start with, i spawn the mongo database
 
     $ docker run -d --name sparkhara-mongo mongo
 
-(in the following commands i make use the `-it` option to attach the terminal
- to my docker containers. this can be ommitted if need be, my main rationale
- for this is to see the output and have the ability to kill the commands with
- a CTRL+c.)
+*in the following commands i make use of the `-it` option to attach the
+ terminal to my docker containers. this can be ommitted if need be, my main
+ rationale  for this is to see the output and have the ability to kill the
+ commands with a CTRL+c.*
 
 next, i start the ghost-pathfinder
 
